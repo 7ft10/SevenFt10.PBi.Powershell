@@ -8,6 +8,30 @@
 .NOTES
     Workspace Id is required for most functions.
 
+	Invoke-PBIPowerBIAuthenitcation
+		Log in and ensuring MicrosoftPowerBIMgmt exists
+
+	Invoke-PBIDataSetsUpload
+		Upload a file or a folder of files prefixed with "DataSet"
+
+	Invoke-PBIDataSuitesUpload
+		Upload a file or a folder of files prefixed with "DataSuite"
+
+	Invoke-PBIReportsUpload
+		Upload a file or a folder of files prefixed with "Report"
+
+	Remove-PBIDataSetReports
+		Delete data set reports (but leave the data set)
+
+	Initialize-PBIAllDataSetRefresh
+		Refresh all data sets (that can be refreshed)
+
+	Clear-PBIWorkspace
+		Remove all data sets, data suites, and reports from a workspace
+
+	Update-PBIDebugParameters
+		Set the debug parameter on all data sets that already have the parameter
+
 .COMPONENT
     Information about PowerShell Modules to be required.
 
