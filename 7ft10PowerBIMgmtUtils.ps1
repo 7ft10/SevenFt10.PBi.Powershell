@@ -12,7 +12,7 @@
     Information about PowerShell Modules to be required.
 
 .LINK 
-    Useful Link to ressources or others.
+    Source - https://github.com/7ft10/SevenFt10.PBi.Powershell/blob/main/7ft10PowerBIMgmtUtils.ps1
 #>
 
 Function Login-PBICustomPowerBIMgmt
