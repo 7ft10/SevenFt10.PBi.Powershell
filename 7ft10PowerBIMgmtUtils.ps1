@@ -286,7 +286,7 @@ Function global:Remove-PBIDataSetReports {
 	}
 }
 
-Function global:Initialize-PBIAllDataSetRefresh {
+Function global:Invoke-PBIAllDataSetRefresh {
 	[CmdletBinding()]
 	param (
 		[Parameter(Position = 0)]
